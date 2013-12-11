@@ -1,0 +1,21 @@
+{
+    "app": {
+        "background": {
+            "scripts": [
+                "background.js"
+            ]
+        }
+    },
+    "description": "A meatier lorem ipsum generator",
+    "icons": {
+        "128": "bacon-ipsum-128.png",
+        "16": "bacon-ipsum-16.png"
+    },
+    "name": "Bacon Ipsum",
+    "version": "1.0",
+    "permissions": [
+    	"clipboardWrite",
+	    "http://baconipsum.com/"
+  	]
+}
+	

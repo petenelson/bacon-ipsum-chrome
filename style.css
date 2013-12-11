@@ -1,0 +1,7 @@
+img {
+	border: none;
+}
+
+#filler {
+	-webkit-user-select: text
+}

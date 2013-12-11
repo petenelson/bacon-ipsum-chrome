@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    
+    <a href="http://baconipsum.com" target="_blank"><img src="bacon-ipsum-banner1.jpg" style="width: 100%" /></a>
+    <br/>
+
+	<div id="filler"></div>
+					
+	<p>Does your lorem ipsum text long for something a little meatier? Give our generator a try... it's tasty!</p>
+
+	
+	<form id="meatyForm">
+	<table>
+		<tbody>
+		<tr>
+			<td>Paragraphs:</td>
+			<td><input style="width: 40px;" type="text" name="paras" value="5" maxlength="2"></td>
+		</tr>
+		<tr>
+			<td>Type:</td>
+			<td><input id="all-meat" type="radio" name="type" value="all-meat" checked="checked"><label for="all-meat">All Meat</label><input id="meat-and-filler" type="radio" name="type" value="meat-and-filler"><label for="meat-and-filler">Meat and Filler</label></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><input id="start-with-lorem" type="checkbox" name="start-with-lorem" value="1" checked="checked"> <label for="start-with-lorem">Start with 'Bacon&nbsp;ipsum dolor sit amet...'</label></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><input id="copy-to-clipboard" type="checkbox" checked="checked"> <label for="copy-to-clipboard">Copy to clipboard</label></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><button id="btn">Give me bacon</button></td>
+		</tr>
+		</tbody>
+	</table>
+	</form>
+
+
+	<script src="main.js"></script>
+
+</body>
+</html>
