@@ -8,14 +8,15 @@
     },
     "description": "A meatier lorem ipsum generator",
     "icons": {
-        "128": "bacon-ipsum-128.png",
+        "128": "bacon-ipsum-128-rounded.png",
         "16": "bacon-ipsum-16.png"
     },
     "name": "Bacon Ipsum",
-    "version": "1.0",
+    "short_name": "Bacon Ipsum",
+    "author": "Pete Nelson",
+    "version": "1.0.1",
     "permissions": [
     	"clipboardWrite",
 	    "http://baconipsum.com/"
   	]
 }
-	
